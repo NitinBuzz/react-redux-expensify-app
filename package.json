@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Nitin",
   "license": "MIT",
+  "engines": {
+    "node": "8.6.0",
+    "npm": "5.5.1"
+  },
   "scripts": {
     "build": "webpack",
     "build:dev": "webpack",
