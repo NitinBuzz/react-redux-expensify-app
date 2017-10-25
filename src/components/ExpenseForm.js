@@ -4,9 +4,9 @@ import 'react-dates/initialize';
 import 'react-dates/lib/css/_datepicker.css';
 import { SingleDatePicker } from 'react-dates';
 
-//const date = new Date();
-const now = moment();
-//console.log(now.format());
+// const date = new Date();
+// const now = moment();
+// console.log(now.format());
 
 export default class ExpenseForm extends React.Component {
   constructor(props) {

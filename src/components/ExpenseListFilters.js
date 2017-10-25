@@ -9,6 +9,7 @@ import {
   setStartDate,
   setEndDate
 } from '../actions/filters';
+
 class ExpenseListFilters extends React.Component {
   state = {
     calendarFocused: null
