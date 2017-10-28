@@ -7,6 +7,7 @@ const ExpenseList = props => (
   <div>
     <h1>Expense List</h1>
     {props.expenses.map((expense, index) => (
+      // console.log(expense);
       <ExpenseListItem key={expense.id} {...expense} />
     ))}
   </div>

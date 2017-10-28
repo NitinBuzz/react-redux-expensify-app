@@ -17,28 +17,29 @@ const config = {
 firebase.initializeApp(config);
 const database = firebase.database();
 
+// database.ref('expenses').push({
+//   description: 'GF Bill',
+//   amount: 50000,
+//   note: 'very bad',
+//   createdAt: 123456789
+// });
+//
+// database.ref('expenses').push({
+//   description: 'Wifi Bill',
+//   amount: 1200,
+//   note: '30 mbps',
+//   createdAt: 555555555
+// });
+//
+// database.ref('expenses').push({
+//   description: 'Credit card bill',
+//   amount: 2500,
+//   note: 'EMI + Tax',
+//   createdAt: 987654321
+// });
+
 export { firebase, database as default };
 
-// // database.ref('expenses').push({
-// //   title: 'GF Bill',
-// //   amount: 50000,
-// //   note: 'very bad',
-// //   createdAt: 123456789
-// // });
-// //
-// // database.ref('expenses').push({
-// //   title: 'Wifi Bill',
-// //   amount: 1200,
-// //   note: '30 mbps',
-// //   createdAt: 555555555
-// // });
-// //
-// // database.ref('expenses').push({
-// //   title: 'Credit card bill',
-// //   amount: 2500,
-// //   note: 'EMI + Tax',
-// //   createdAt: 987654321
-// // });
 //
 // const setExpenseArray = snapshot => {
 //   const expensesArray = [];
